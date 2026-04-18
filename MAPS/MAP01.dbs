@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "C:\\Users\\YK\\Desktop\\doom\\freedoom1.wad";
+				location = "C:\\Users\\ykyig\\OneDrive\\Masaüstü\\Studio\\Doom\\freedoom1.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -24,7 +24,7 @@ maps
 			resource1
 			{
 				type = 0;
-				location = "C:\\Users\\YK\\Desktop\\doom\\freedoom2.wad";
+				location = "C:\\Users\\ykyig\\OneDrive\\Masaüstü\\Studio\\Doom\\freedoom2.wad";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -48,9 +48,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = -949.5903f;
-		viewpositiony = 235.0352f;
-		viewscale = 4.175348f;
+		viewpositionx = -5.274167f;
+		viewpositiony = -718.6858f;
+		viewscale = 1.461905f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -175,6 +175,97 @@ maps
 				scripttype = 1;
 				activetab = true;
 			}
+		}
+	}
+	
+	ROAD1
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\ykyig\\OneDrive\\Masaüstü\\Studio\\Doom\\freedoom1.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+			
+			resource1
+			{
+				type = 0;
+				location = "C:\\Users\\ykyig\\OneDrive\\Masaüstü\\Studio\\Doom\\freedoom2.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+		}
+		defaultfloortexture = "FLOOR0_1";
+		defaultceiltexture = "SKY4";
+		defaulttoptexture = "STARTAN1";
+		defaultwalltexture = "STARTAN1";
+		defaultbottomtexture = "STARTAN1";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 425.8052f;
+		viewpositiony = 72.40401f;
+		viewscale = 0.2802129f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 1;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }
