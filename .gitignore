@@ -1,0 +1,33 @@
+#ONLY SLADE AND MAPS WILL BE IMPORTED
+
+#some slade folders are too big and not needed SLADE
+SLADE/Tools
+SLADE/SLADE.pdb
+SLADE/slade.pk3
+SLADE/unins000.dat
+
+
+#for general pk3,wad and dll
+brightmaps.pk3
+freedoom1.wad
+freedoom2.wad
+game_support.pk3
+game_widescreen_gfx.pk3
+gzdoom.pk3
+lights.pk3
+openal32.dll
+sndfile.dll
+zmusic.dll
+
+#who needs license anyways
+licenses.zip
+
+#any builds or autosaves from gzdoom
+*.exe
+*.backup*
+*.autosave*
+
+#dev folders
+fm_banks
+soundfonts
+UDM
