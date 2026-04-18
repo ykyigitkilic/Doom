@@ -31,3 +31,6 @@ licenses.zip
 fm_banks
 soundfonts
 UDB
+
+#map01 dbs files saves file directories
+MAPS/MAP01.dbs
